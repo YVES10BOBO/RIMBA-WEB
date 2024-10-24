@@ -1,0 +1,102 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* Navbar.css */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar-logo {
+    width: 50px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Admin.css */
+  /* .admin {
+    display: flex;
+    height: 100%;
+  }
+  
+  .admin-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+  }
+  
+  /* Sidebar.css */
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .sidebar-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .sidebar-item p {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #575757;
+  }
+  
+  .sidebar a {
+    width: 100%;
+    text-decoration: none;
+  }
+   */
